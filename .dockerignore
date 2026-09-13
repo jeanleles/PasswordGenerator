@@ -1,0 +1,7 @@
+.git
+.github
+.vscode
+README.md
+Dockerfile
+docker-compose.yml
+*.Zone.Identifier

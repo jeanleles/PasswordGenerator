@@ -1,0 +1,13 @@
+services:
+  password-generator:
+    build:
+      context: .
+    container_name: password-generator
+    restart: unless-stopped
+
+    networks:
+      - webnetwork
+
+networks:
+  webnetwork:
+    external: true
