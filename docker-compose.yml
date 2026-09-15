@@ -1,7 +1,6 @@
 services:
   password-generator:
-    build:
-      context: .
+    image: ghcr.io/jeanleles/passwordgenerator:latest
     container_name: password-generator
     restart: unless-stopped
 
